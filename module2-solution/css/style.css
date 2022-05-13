@@ -18,6 +18,7 @@ h2 {
 
 .box {
     width: 31%;
+    float: left;
     background-color: rgb(124, 47, 47);
     border: 2px solid rgb(8, 0, 255);
     padding: 18px;
@@ -51,21 +52,9 @@ h2 {
 
 }
 
-#chicken {
-    float: left;
-}
-
-#beef {
-    float: left;
-}
-
-#sushi {
-    float: left;
-}
-
 
 @media (max-width:991px) and (min-width: 768px) {
-    #chicken,#beef{
+    .box{
         width: 47%;
     }
     #sushi{
